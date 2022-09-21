@@ -50,6 +50,10 @@ h3:not(:has(+ p)) {
     margin-bottom: 35px;
 }
 
+main h3.bottom-margin {
+    margin-bottom: 15px;
+}
+
 @media (max-width:767px) {
     h3 {
         margin-bottom: 15px !important;
@@ -820,9 +824,6 @@ main .search-items div.box div:first-of-type {
     margin-top: 20px;
 }
 
-main .latest-uploads h3 {
-    margin-bottom: 15px;
-}
 
 main .latest-uploads>div {
     display: flex;
@@ -879,10 +880,6 @@ main .latest-uploads .psd::after {
 main .latest-uploads .zip::after,
 .eps::after {
     content: '8.9mb';
-}
-
-main .project-progress h3 {
-    margin-bottom: 15px;
 }
 
 main .project-progress .steps {
@@ -954,10 +951,6 @@ main .reminders .reminder {
     padding: 10px 0;
     padding-left: 40px;
 
-}
-
-main .reminders h3 {
-    margin-bottom: 15px;
 }
 
 main .reminders .reminder:not(:last-child) {
@@ -1070,10 +1063,6 @@ main .latest-post .likes-comments i {
     transform: translateY(2px);
 }
 
-main .social h3 {
-    margin-bottom: 15px;
-}
-
 main .social div {
     display: flex;
     align-items: center;
@@ -1174,10 +1163,6 @@ main .social div button {
 main .projects-01 {
     grid-column: 1/-1;
     overflow-x: scroll !important;
-}
-
-main .projects-01 h3 {
-    margin-bottom: 15px;
 }
 
 main .projects-01 table {
