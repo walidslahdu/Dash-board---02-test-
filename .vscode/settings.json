@@ -1,15 +1,1 @@
-{
-    "editor.cursorSurroundingLinesStyle": "default",
-    "editor.cursorStyle": "line",
-    "editor.tabSize": 4,
-    "editor.renderWhitespace": "all",
-    "editor.multiCursorModifier": "alt",
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
-    "editor.colorDecorators": true,
-    "editor.columnSelection": true,
-    "editor.definitionLinkOpensInPeek": false,
-    "editor.defaultFormatter": null,
-    "editor.experimental.pasteActions.enabled": true,
-    "editor.guides.highlightActiveBracketPair": true,
-    "editor.guides.bracketPairsHorizontal": "active"
-}
+{}

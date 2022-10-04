@@ -33,6 +33,60 @@
                 <img src="images/profile-pic.svg" alt="profile-pic">
             </div>
         </header>
+
+        <aside>
+            <div class="head">
+                <h3>
+                    Elzero
+                </h3>
+            </div>
+            <ul>
+                <li class="active">
+                    <a href="index.html"> <i class="fa-solid fa-chart-bar"></i> <span>Dashboard</span> </a>
+                </li>
+                <li>
+                    <a href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span> Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html">
+                        <i class="fa-solid fa-layer-group fa-fw"></i>  
+                        <span>Projects</span></a>
+                </li>
+                <li>
+                    <a href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw "></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
         <main>
             <div class="main-heading">
                 <h2>Dashboard</h2>
@@ -67,16 +121,16 @@
                                 <p>Earned</p>
                             </li>
                         </ul>
-                        <button>Profile</button>
+                        <a href="profile.html" class="btn">Profile</a>
                     </div>
                 </div>
                 <div class="draft">
                     <h3>Draft</h3>
                     <p>Write A Draft With Your Idea</p>
                     <form action="">
-                        <input type="text" placeholder="Title">
+                        <input type="text" placeholder="Title" class="npt">
                         <textarea name="" id="" cols="30" rows="10" placeholder="Your Thought"></textarea>
-                        <button>Save</button>
+                        <button class="btn">Save</button>
                     </form>
                 </div>
                 <div class="target">
@@ -159,7 +213,7 @@
                             <p>Created SASS Section</p>
                             <p>New SASS Examples & Tutorials</p>
                         </div>
-                        <span>3 Days Ago</span>
+                        <span class="btn">3 Days Ago</span>
                     </div>
                     <div>
                         <img src="images/image2.jpg" alt="">
@@ -167,7 +221,7 @@
                             <p>Changed The Design </p>
                             <p>A Brand New Website Design </p>
                         </div>
-                        <span>5 Days Ago</span>
+                        <span class="btn">5 Days Ago</span>
                     </div>
                     <div>
                         <img src="images/image3.jpg" alt="">
@@ -175,7 +229,7 @@
                             <p>Team Increased</p>
                             <p>3 Developers Joined The Team</p>
                         </div>
-                        <span>7 Days Ago</span>
+                        <span class="btn">7 Days Ago</span>
                     </div>
                     <div>
                         <img src="images/planet.jpg" alt="">
@@ -183,66 +237,80 @@
                             <p>Added Payment Gateway </p>
                             <p>Many New Payment Gateway Added</p>
                         </div>
-                        <span>9 Days Ago</span>
+                        <span class="btn">9 Days Ago</span>
                     </div>
-
                 </div>
                 <div class="latest-tasks">
                     <h3 class="mb-35">Latest Tasks</h3>
                     <div>
                         <div class="text">
-                            <p>
+                            <p class="done">
                                 Record One New Video
                             </p>
-                            <p>
+                            <p class="done">
                                 Record Python Creat Exe Project
                             </p>
                         </div>
-                        <i class="fa-regular fa-trash-can"></i>
+                        <div class="check-box">
+                            <input type="checkbox" name="" id="">
+                            <i class="fa-regular fa-trash-can"></i>
+                        </div>
                     </div>
                     <div>
                         <div class="text">
-                            <p>
+                            <p class="done">
                                 Write Article
                             </p>
-                            <p>
+                            <p class="done">
                                 Write Low Levels vs High Level Languages
                             </p>
                         </div>
-                        <i class="fa-regular fa-trash-can"></i>
+                        <div class="check-box">
+                            <input type="checkbox" name="" id="">
+                            <i class="fa-regular fa-trash-can"></i>
+                        </div>
                     </div>
                     <div>
                         <div class="text">
-                            <p>
+                            <p class="done">
                                 Finish Projects
                             </p>
-                            <p>
+                            <p class="done">
                                 Puplish Academy Programming Project
                             </p>
                         </div>
-                        <i class="fa-regular fa-trash-can"></i>
+                        <div class="check-box">
+                            <input type="checkbox" name="" id="">
+                            <i class="fa-regular fa-trash-can"></i>
+                        </div>
                     </div>
                     <div>
                         <div class="text">
-                            <p>
+                            <p class="done">
                                 Attend The Meeting
                             </p>
-                            <p>
+                            <p class="done">
                                 Attend The Project Business Analysis Meeting
                             </p>
                         </div>
-                        <i class="fa-regular fa-trash-can"></i>
+                        <div class="check-box">
+                            <input type="checkbox" name="" id="">
+                            <i class="fa-regular fa-trash-can"></i>
+                        </div>
                     </div>
                     <div>
                         <div class="text">
-                            <p>
+                            <p class="done">
                                 Finish Lesson
                             </p>
-                            <p>
+                            <p class="done">
                                 Finish Teaching Flexbox
                             </p>
                         </div>
-                        <i class="fa-regular fa-trash-can"></i>
+                        <div class="check-box">
+                            <input type="checkbox" name="" id="">
+                            <i class="fa-regular fa-trash-can"></i>
+                        </div>
                     </div>
 
                 </div>
@@ -251,8 +319,8 @@
                         Top Search Items
                     </h3>
                     <div class="box">
-                        <span>Keyword</span>
-                        <span>Search Count</span>
+                        <span>Key Words</span>
+                        <span>Count</span>
                         <div data-number="220">Programming</div>
                         <div data-number="180">JavaScript</div>
                         <div data-number="160">PHP</div>
@@ -383,24 +451,24 @@
                         Social Media Stats
                     </h3>
                     <div>
-                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-twitter fa-fw"></i>
                         <p>90K Followers</p>
-                        <button>Follow</button>
+                        <button class="btn">Follow</button>
                     </div>
                     <div>
-                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-facebook-f  fa-fw"></i>
                         <p>2M Likes</p>
-                        <button>Like</button>
+                        <button class="btn">Like</button>
                     </div>
                     <div>
-                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-youtube fa-fw"></i>
                         <p>1M Subs </p>
-                        <button>Subscribe</button>
+                        <button class="btn">Subscribe</button>
                     </div>
                     <div>
-                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-linkedin fa-fw"></i>
                         <p>70K Followers</p>
-                        <button>Follow</button>
+                        <button class="btn">Follow</button>
                     </div>
                 </div>
                 <div class="projects-01">
@@ -456,7 +524,7 @@
                                 <td>Bouba App</td>
                                 <td>05 Sep 2021</td>
                                 <td>Bouba</td>
-                                <td>800$</td>
+                                <td>$800</td>
                                 <td>
                                     <div class="members">
                                         <img src="images/member-03.png" alt="">
@@ -517,59 +585,6 @@
                 </div>
             </div>
         </main>
-        <aside>
-            <div class="head">
-                <h3>
-                    Elzero
-                </h3>
-            </div>
-            <ul>
-                <li>
-                    <a href="index.html"> <i class="fa-solid fa-chart-bar"></i> <span>Dashboard</span> </a>
-                </li>
-                <li>
-                    <a href="">
-                        <i class="fa-solid fa-gear fa-fw"></i>
-                        <span> Settings</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <i class="fa-regular fa-user fa-fw"></i>
-                        <span>Profile</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <i class="fa-solid fa-layer-group fa-fw"></i> </i>
-                        <span>Projects</span></a>
-                </li>
-                <li>
-                    <a href="">
-                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
-                        <span>Courses</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <i class="fa-regular fa-circle-user fa-fw"></i>
-                        <span>Friends</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <i class="fa-regular fa-file fa-fw"></i>
-                        <span>Files</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <i class="fa-regular fa-credit-card fa-fw "></i>
-                        <span>Plans</span>
-                    </a>
-                </li>
-            </ul>
-        </aside>
     </div>
 </body>
 
